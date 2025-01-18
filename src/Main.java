@@ -63,10 +63,6 @@ public class Main {
         thread4.start();
         try {
             Thread.sleep(2000);
-            thread1.join();
-            thread2.join();
-            thread3.join();
-            thread4.join();
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
